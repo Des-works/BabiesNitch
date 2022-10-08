@@ -1,3 +1,11 @@
+window.addEventListener('load', () => {
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true,
+      mirror: false
+    })
+  });
 function myVideo(){
     let links = document.querySelector(".link_a");
     let overs = document.querySelector(".bg-show .overlay");

@@ -13,7 +13,7 @@ h6 {
     background: #d48735a4;
   }
 .z3{
-    background: #85ea85;
+    background: #85ea85c5;
   }
 
 
@@ -336,7 +336,7 @@ button:focus {
     background: #d48735a4;
   }
   .services .z3:hover::before {
-    background: #85ea85;
+    background: rgba(133, 234, 133, 0.773);
   }
   
   .services .icon {

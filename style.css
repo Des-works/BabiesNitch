@@ -395,7 +395,7 @@ button:focus {
 
   .bg-show{
     position: relative;
-    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)) , url(./img/9.jpg);
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)) , url(Img/9.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

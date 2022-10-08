@@ -14,10 +14,10 @@ function myVideo(){
     player.onclick = ()=>{
         if(videos.paused){
             videos.play();
-            player.src = "img/pause.png"
+            player.src = "Img/pause.png"
         }else{
             videos.pause();
-            player.src = "img/play.png"
+            player.src = "Img/play.png"
         }
     }
 }

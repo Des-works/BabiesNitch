@@ -504,17 +504,43 @@ button:focus {
 }
 
 @media(max-width: 768px){
-    .bg-show .image video{
-        width: 450px;
-    }
-    .bg-show .link img{
-        width: 2rem;
-    }
-    .bg-show .link{
-        width: 150px;
-        height: 150px;
-        line-height: 150px;
-    }
+  .bg-show .image video{
+      width: 450px;
+  }
+  .bg-show .link img{
+      width: 2rem;
+  }
+  .bg-show .link{
+      width: 150px;
+      height: 150px;
+      line-height: 150px;
+  }
+  .tag1 h2{
+  
+    font-size: 18px;
+    text-transform: uppercase;
+    position: relative;
+    color: #222222;
+
+  }
+  .section-title h2{
+    font-size: 18px;
+  
+
+  }
+  .section-title h2::before,
+  .section-title h2::after {
+    content: "";
+    width: 30px;
+    height: 2px;
+    background: #6622ccd3;
+    display: inline-block;
+  }
+  .tag1 h2::before,
+  .tag1 h2::after {
+    display: none;
+  }
+  
 }
 @media(max-width: 576px){
     .bg-show .image video{
